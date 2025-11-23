@@ -686,7 +686,7 @@ function StarfieldPage() {
               type="button"
               aria-label="Click me for a surprise"
               className="liquid-glass-button fade-in-up"
-              onClick={() => window.open('https://cakeforyou.vercel.app/', '_blank', 'noopener')}
+              onClick={() => window.open('https://cakeforyou.vercel.app', '_blank', 'noopener')}
               style={{
                 position: 'fixed',
                 bottom: '40px',
