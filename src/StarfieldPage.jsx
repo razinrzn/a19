@@ -197,7 +197,7 @@ function StarfieldPage() {
     if (showWords) {
       const timer = setTimeout(() => {
         setShowClickMeButton(true);
-      }, 2000);
+      }, 5000);
       return () => clearTimeout(timer);
     }
     if (!showWords && showClickMeButton) {
