@@ -503,7 +503,7 @@ function StarfieldPage() {
               <p>
                 HAPPY HAPPY HAPPIEST BIRTHDAY TO MY BEAUTIFUL BABY. this is the best day of the year and i cant believe i get to be a part of it 
                 every year. may allah give you health, wealth, courage, knowledge and everything you need to achieve all your goals. be my baby forever
-                youre the best thing that ever happened to me. im so happy you exist. im so grateful for you. words cant describe how much you meant to me.
+                youre the best thing that ever happened to me. im so happy you exist. im so grateful for you. words cant describe how much you mean to me.
                 and that's exactly why this day is so special because you were born today. once again happiest birthday my pookiebear. i hope you
                 like this little gift from me :)
               </p>
