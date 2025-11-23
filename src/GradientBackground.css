@@ -1,0 +1,203 @@
+.gradient-background {
+  position: fixed;
+  width: 120vw;
+  height: 120vh;
+  top: -10vh;
+  left: -10vw;
+  background: linear-gradient(270deg, #ff5f6d, #ffc371, #47caff, #7efff5, #ffe66d);
+  background-size: 1000% 1000%;
+  animation: gradientShift 30s ease infinite;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.floating-element {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  opacity: 0.7;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.floating-element-0 {
+  width: 25px;
+  height: 25px;
+  top: 20%;
+  left: 10%;
+  animation-name: floatX;
+  animation-duration: 6s;
+  --animation-distance: 30px;
+}
+
+.floating-element-1 {
+  width: 15px;
+  height: 15px;
+  top: 40%;
+  left: 30%;
+  animation-name: floatY;
+  animation-duration: 5s;
+  --animation-distance: 20px;
+}
+
+.floating-element-2 {
+  width: 30px;
+  height: 30px;
+  top: 60%;
+  left: 50%;
+  animation-name: floatX;
+  animation-duration: 8s;
+  --animation-distance: 40px;
+}
+
+.floating-element-3 {
+  width: 20px;
+  height: 20px;
+  top: 70%;
+  left: 70%;
+  animation-name: floatY;
+  animation-duration: 7s;
+  --animation-distance: 25px;
+}
+
+.floating-element-4 {
+  width: 25px;
+  height: 25px;
+  top: 15%;
+  left: 80%;
+  animation-name: floatX;
+  animation-duration: 9s;
+  --animation-distance: 35px;
+}
+
+.floating-element-5 {
+  width: 18px;
+  height: 18px;
+  top: 35%;
+  left: 20%;
+  animation-name: floatY;
+  animation-duration: 6s;
+  --animation-distance: 30px;
+}
+
+.floating-element-6 {
+  width: 22px;
+  height: 22px;
+  top: 45%;
+  left: 60%;
+  animation-name: floatX;
+  animation-duration: 6.5s;
+  --animation-distance: 40px;
+}
+
+.floating-element-7 {
+  width: 16px;
+  height: 16px;
+  top: 55%;
+  left: 40%;
+  animation-name: floatY;
+  animation-duration: 5.5s;
+  --animation-distance: 25px;
+}
+
+.floating-element-8 {
+  width: 20px;
+  height: 20px;
+  top: 25%;
+  left: 75%;
+  animation-name: floatX;
+  animation-duration: 7s;
+  --animation-distance: 30px;
+}
+
+.floating-element-9 {
+  width: 24px;
+  height: 24px;
+  top: 65%;
+  left: 85%;
+  animation-name: floatY;
+  animation-duration: 8s;
+  --animation-distance: 35px;
+}
+
+.floating-element-10 {
+  width: 21px;
+  height: 21px;
+  top: 50%;
+  left: 15%;
+  animation-name: floatX;
+  animation-duration: 6.5s;
+  --animation-distance: 30px;
+}
+
+.floating-element-11 {
+  width: 17px;
+  height: 17px;
+  top: 30%;
+  left: 65%;
+  animation-name: floatY;
+  animation-duration: 6s;
+  --animation-distance: 25px;
+}
+
+.floating-element-12 {
+  width: 23px;
+  height: 23px;
+  top: 55%;
+  left: 55%;
+  animation-name: floatX;
+  animation-duration: 7s;
+  --animation-distance: 35px;
+}
+
+.floating-element-13 {
+  width: 19px;
+  height: 19px;
+  top: 40%;
+  left: 45%;
+  animation-name: floatY;
+  animation-duration: 6.5s;
+  --animation-distance: 30px;
+}
+
+.floating-element-14 {
+  width: 26px;
+  height: 26px;
+  top: 20%;
+  left: 65%;
+  animation-name: floatX;
+  animation-duration: 8s;
+  --animation-distance: 40px;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes floatX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(var(--animation-distance, 20px));
+  }
+}
+
+@keyframes floatY {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(var(--animation-distance, 15px));
+  }
+}
